@@ -1,0 +1,88 @@
+Joseph Ingenito
+Intro to Mathematica
+3/6/19
+
+1) 
+The output is 958.5 which is different from the first output because the first prompt had (5*7 -99) all over 2, where the second prompt multiplied 5*7 then subtracted 99/2.
+
+2) 
+
+>> (log(20)/log(8))
+
+ans =
+
+    1.4406
+
+>> x = ans
+
+x =
+
+    1.4406
+
+>> ((x+52)^(x))/x
+
+ans =
+
+  214.1359
+  
+3)
+
+for i = 2:2:20
+    exp(i)
+end
+
+>> IntroMatLab
+
+ans =
+
+    7.3891
+
+
+ans =
+
+   54.5982
+
+
+ans =
+
+  403.4288
+
+
+ans =
+
+   2.9810e+03
+
+
+ans =
+
+   2.2026e+04
+
+
+ans =
+
+   1.6275e+05
+
+
+ans =
+
+   1.2026e+06
+
+
+ans =
+
+   8.8861e+06
+
+
+ans =
+
+   6.5660e+07
+
+
+ans =
+
+   4.8517e+08
+   
+4)
+
+The last integer printed to the screen is 529. The result is different than Example 4 because in this exercise the semi-colon was removed from the line that calculates the new square, so 
+everytime the new square is calculated it will be printed.
