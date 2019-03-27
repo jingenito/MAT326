@@ -1,0 +1,110 @@
+Joe Ingenito
+3/27/19
+Matlab Part 2
+
+Excersize 1)
+
+function [x1,x2] = quadratic(a,b,c)
+disc = sqrt((b^2) - 4*a*c);
+x1 = ((-1)*b + disc)/(2*a);
+x2 = ((-1)*b - disc)/(2*a);
+end
+
+(a)
+
+>> [x1,x2] = quadratic(1,0,-1)
+
+x1 =
+
+     1
+
+
+x2 =
+
+    -1
+	
+(b)
+
+>> [x1,x2] = quadratic(1,0,1)
+
+x1 =
+
+   0.0000 + 1.0000i
+
+
+x2 =
+
+   0.0000 - 1.0000i
+  
+(c)
+
+>> [x1,x2] = quadratic(1,2,1)
+
+x1 =
+
+    -1
+
+
+x2 =
+
+    -1
+
+(d)
+
+>> [x1,x2] = quadratic(8,10,-3)
+
+x1 =
+
+    0.2500
+
+
+x2 =
+
+   -1.5000
+   
+Excersize 2)
+
+function [x,y] = Eul(h,x0,y0,xf)
+k = 1;
+x(k) = x0;
+y(k) = y0;
+    while(x(k) + h <= xf + 10^-10)
+        x(k+1) = x(k) + h;
+        y(k+1) = y(k) + h*(x(k) + y(k));
+        k = k + 1;
+    end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
